@@ -12,7 +12,7 @@
 @media screen and (max-width: 990px) {
     #landing-img {
         position: absolute;
-        top: 10%;
+        top: 15%;
     }
 }
 
@@ -81,7 +81,7 @@ html, body {
 }
 
 #litter-announcement {
-    width: 100vw;
+    min-width: 100%;
 }
 
 .cyrus-bg {
@@ -167,6 +167,8 @@ html, body {
     margin-top: 10px;
     height: 200px;
     width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
     border: solid 2px #0275d8
 }
 
@@ -174,6 +176,8 @@ html, body {
     margin-top: 10px;
     height: 200px;
     width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
     border: solid 2px #0275d8
 }
 
@@ -181,6 +185,8 @@ html, body {
     margin-top: 10px;
     height: 200px;
     width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
     border: solid 2px #0275d8
 }
 
