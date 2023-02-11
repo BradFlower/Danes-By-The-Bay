@@ -34,9 +34,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="large-breed-faq.html">Large Breed FAQ</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About Us</a>
-                </li>  
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="about-us.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="family-owned.html">Family Owned</a></li>
+                        <li><a class="dropdown-item" href="how-we-breed.html">How We Breed</a></li>
+                        <li><a class="dropdown-item" href="lifetime-breeder-support.html">Lifetime Breeder Support</a></li>
+                    </ul>
+                  </div>  
                 </ul>
               </div>
           </div>
@@ -50,23 +57,22 @@
             <p id="phone-number">Phone Number:</p>
           </div>
           <ol>
-            <li class="questions">Have you ever owned a Great Dane or have any experience with large breeds?</li>
-            <li class="questions">Do you prefer male or female</li>
-            <li class="questions">Why are you interested in purchasing one of our Danes?(Companion/Family,Service/Therapy,Competition/Showing</li>
-            <li class="questions">Are there other dogs in the home, if yes what breeds and how many?</li>
-            <li class="questions">Will there be a fenced in yard at home?</li>
-            <li class="questions">Are you familiar with veterinary financials and will be able to keep up with expenses?</li>
+            <li class="questions">Have you ever owned or trained a large breed dog before?</li>
+            <li class="questions">Are you familiar with crate training?</li>
+            <li class="questions">Do you have any health conditions that could be impacted by a large dog?</li>
+            <li class="questions">Do you understand the difference between limited and full registration?</li>
+            <li class="questions">Are you aware of the health benefits to spay or neauter?</li>
+            <li class="questions">Do you currently have a veterinarian? Are you going to complete shots yearly and stay up to date with flea, tick, and heartworm medications?</li>
           </ol>
       </div>
       <div class="puppyapp-light-bg" id="puppyapp-light">
         <ol>
-            <li value="7" class="questions">Are you interested in getting your Danes ears cropped, if so do you have an experienced veterinarian to preform the surgery, and are you aware that European Danes can take years of posting to stand and still may fail?</li>
-            <li class="questions">Do you currently have a vet? Are you going to complete shots yearly and stay up to date with flea, tick, and heartworm medications?</li>
-            <li class="questions">Are you willing to purchase knowing that if you are unable to take proper care you must surrender the puppy/dog to the breeder?(Myself)</li>
-            <li class="questions" id="question-10">Will you be able to send updates on the progress your puppy makes?</li>
+            <li value="7" class="questions">Are you willing to purchase knowing that if you are unable to take proper care you must surrender the puppy/dog to the breeder?(Myself)</li>
+            <li class="questions">Will you be able to send updates on the progress your puppy makes?</li>
+            <li class="questions">What is your philosophy on dog training?</li>
         </ol>
       </div>
-      <form>
+      <form id="inputdate">
         <div class="mb-3">
           <label for="exampleInputDate" class="form-label">Date</label>
           <input type="date" class="form-control" id="exampleInputDate" aria-describedby="dateHelp">
@@ -78,16 +84,16 @@
         </div>
       </form>
     <div class="btn">
-        <button type="button" class="btn btn-outline-dark btn-sm">Or download here</button>
+        <button type="button" onclick="location.href='Documents/PuppyApplication.docx';" class="btn btn-outline-dark btn-sm">Or download here</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<footer class="bg-dark text-white pt-5 pb-4">
+<footer class="bg-dark text-white pt-5 pb-4 border-top border-secondary">
     <div class="conatiner text-center text-md-left">
         <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Danes By The Bay</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, magni quos ut incidunt similique dolorem beatae maiores soluta nemo minus dolore hic aliquid voluptatem cupiditate nobis autem placeat officia nam!</p>
+                <p>~ 100% Full-bred European Great Danes <strong>provided to you</strong><br> from the Eastern Shore of MD ~</p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contact</h5>
